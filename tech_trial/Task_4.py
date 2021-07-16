@@ -13,13 +13,16 @@ def passwd_strength(password):
             2 -> strong e.g. a password containing strings and numbers
             3 -> very strong e.g. a password containing strings, numbers and special characters (!,@,#,$,%, etc)
     """
-
+    # Check if the password comprises of only alphabets
     if password.isalpha():
         return 0
+    # Check if the password comprises of only numbers
     elif password.isnumeric():
         return 1
+    # Check if the password comprises of only alphabets and numbers
     elif password.isalnum():
         return 2
+    # Password that do not satisfy the conditions above contain symbols or special characters
     else:
         return 3
 
