@@ -6,36 +6,36 @@
 
 2. Write a function that accepts a positive integer and determines if it is a prime number. The function should return true if it is a prime number or false if it isn&#39;t.
 
-1. Write a function that accepts an array of positive integers and returns an array of all prime numbers from the given array. A prime number is a number that is only divisible by 1 and itself.
+3. Write a function that accepts an array of positive integers and returns an array of all prime numbers from the given array. A prime number is a number that is only divisible by 1 and itself.
 
-2. Create a password validator function that takes in the password as its argument and returns an integer value you can evaluate to determine the password strength. Using the following validators:
+4. Create a password validator function that takes in the password as its argument and returns an integer value you can evaluate to determine the password strength. Using the following validators:
  0 -\&gt; very weak e.g. a password with only strings
  1 -\&gt; weak e.g. a password with only numbers
  2 -\&gt; strong e.g. a password containing strings and numbers
  3 -\&gt; very strong e.g. a password containing strings, numbers and special characters (!,@,#,$,%, etc)
 
-3. Write a method to replace all spaces in a string with &#39;%20&#39;.
- Example
+5. Write a method to replace all spaces in a string with &#39;%20&#39;.
+ Example:
 
-**Input** : &quot;Mr John Smith &quot;
+    **Input** : &quot;Mr John Smith &quot;
 
-**Output** : &quot;Mr%20John%20Smith&quot;
+    **Output** : &quot;Mr%20John%20Smith&quot;
 
-1. Write a function that takes two parameters, an array and some number. The function should determine whether any three numbers in the array add up to the number. If it does, the function should return the numbers as an array. If it doesn&#39;t, the function should return -1.
+6. Write a function that takes two parameters, an array and some number. The function should determine whether any three numbers in the array add up to the number. If it does, the function should return the numbers as an array. If it doesn&#39;t, the function should return -1.
  Example
 **Input** : [1, 2, 3, 4, 5, 6], 6
 **Output** : [1, 2, 3]
 
-2. Write a function that takes an array of positive integers and calculates the standard deviation of the numbers. The function should return the standard deviation.
+7. Write a function that takes an array of positive integers and calculates the standard deviation of the numbers. The function should return the standard deviation.
 
-3. Write a method to count the number of 3s that appear in all the numbers between 0 and n (inclusive). It should return an object containing the count of the number of 3s that appear and an array of the numbers that have 3s in them
+8. Write a method to count the number of 3s that appear in all the numbers between 0 and n (inclusive). It should return an object containing the count of the number of 3s that appear and an array of the numbers that have 3s in them
  Example:
 **Input** : 35
 **Output** : { count: 10, numbers: [3, 13, 23, 30, 31, 32, 33, 34, 35] }
 
-4. Write a function that takes a string and determines if the string is a palindrome. A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam, racecar. The function should return &quot;Yes&quot; if the word is a palindrome and &quot;No&quot; if it isn&#39;t. **You are not to use the programming language&#39;s existing function or method, if any**.
+9. Write a function that takes a string and determines if the string is a palindrome. A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam, racecar. The function should return &quot;Yes&quot; if the word is a palindrome and &quot;No&quot; if it isn&#39;t. **You are not to use the programming language&#39;s existing function or method, if any**.
 
-5. Write a function that takes a string. The function should calculate the character in the string with the most occurrences and return that character and the total occurrence of the character in a map or JSON object. If more than one character has the most occurrence, return those characters and total occurrences of each as an array of maps or JSON objects.
+10. Write a function that takes a string. The function should calculate the character in the string with the most occurrences and return that character and the total occurrence of the character in a map or JSON object. If more than one character has the most occurrence, return those characters and total occurrences of each as an array of maps or JSON objects.
  Example
 **Input** : &quot;afhuusnimr443o0sggg&quot;
 **Output** : &quot;g&quot;
