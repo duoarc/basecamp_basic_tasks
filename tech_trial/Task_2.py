@@ -38,9 +38,10 @@ def is_prime(num):
     # If the loop run through all the numbers less than the positive integer without finding a factor, then it is a prime number. Yaay!
     return True
 
+"""
 # Tests
 
-"""print ("Is {} a prime number? {}".format(2, is_prime(2)))
+print ("Is {} a prime number? {}".format(2, is_prime(2)))
 print ("Is {} a prime number? {}".format(3, is_prime(3)))
 print ("Is {} a prime number? {}".format(17, is_prime(17)))
 print ("Is {} a prime number? {}".format(5, is_prime(5)))

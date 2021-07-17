@@ -39,7 +39,7 @@ def sum_even_odd(list_of_num):
 
     return [sum_even, sum_odd]
 
-
+"""
 # Tests
 
 lst = [1,2,3,4,5,6]
@@ -49,5 +49,4 @@ lst2 = [0,123,456,789]
 print ("This works: " , sum_even_odd(lst))
 print ("There's a negative integer here: ", sum_even_odd(lst1))
 print ("There's a Zero here: ", sum_even_odd(lst2))
-
-
+"""

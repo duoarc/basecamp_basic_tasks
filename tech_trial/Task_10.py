@@ -42,9 +42,9 @@ def famous_letter(word):
     else: 
         return max_list[0]
 
-# Tests
+"""# Tests
 
 print (famous_letter("abracadabra"))
 print (famous_letter("abbbbbracadabbbbbbbra"))
 print (famous_letter("abbbracadabbbraa"))
-print (famous_letter("abbbracadabbbraaccccc"))
+print (famous_letter("abbbracadabbbraaccccc"))"""

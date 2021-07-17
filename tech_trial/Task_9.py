@@ -19,7 +19,7 @@ def is_palindrome(word):
 
     # Return "Yes" if a word Iterates through without throwing a "No"
     return "Yes"
-
+"""
 # Tests
 print (is_palindrome("racecar"))
 print (is_palindrome("word"))
@@ -27,3 +27,4 @@ print (is_palindrome("madam"))
 print (is_palindrome("strawwarts"))
 print (is_palindrome("wait"))
 print (is_palindrome("rotator"))
+"""

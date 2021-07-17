@@ -32,5 +32,8 @@ def count_threes(num):
     # Return a dictionary showing the count of 3, and the list of numbers that has 3s        
     return { "count": count, "numbers": num_with_three}
 
+"""
+# Tests
 
 print (count_threes(35))
+"""

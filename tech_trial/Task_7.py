@@ -27,9 +27,9 @@ def std_dev(list_num):
     # return the square root of the sum of squared distances divided by the length of the list
     return  (sum_sqrd_dist/len(list_num))**(1/2)
 
-# Tests
+"""# Tests
 
 print (std_dev([1,2,3,4,5,6,7,8,9]))
 print (std_dev([11,21,31,41,51,61,71,81,91]))
 print (std_dev([10,20,30,40,50,60,70,80,90]))
-print (std_dev([1,5,15,30,50,75,105]))
+print (std_dev([1,5,15,30,50,75,105]))"""

@@ -27,8 +27,8 @@ def sum_in_array(list_num, tsum):
     # If no combination meets the requirement, the code come here to return -1
     return -1
 
-# Tests
+"""# Tests
 
 print (sum_in_array([1,2,3,4,5,6], 6))
 print (sum_in_array([1,2,3,4,5,6], 666))
-print (sum_in_array([1,2,3,4], 9))
+print (sum_in_array([1,2,3,4], 9))"""

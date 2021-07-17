@@ -26,10 +26,10 @@ def passwd_strength(password):
     else:
         return 3
 
-
-# Tests
+"""# Tests
 
 print ("dsfghjkl", passwd_strength("dsfghjkl"))
 print ("123456", passwd_strength("123456"))
 print ("dsfghjkl123456", passwd_strength("dsfghjkl123456"))
 print ("dsfghjkl123456@#$%^", passwd_strength("dsfghjkl123456@#$%^"))
+"""

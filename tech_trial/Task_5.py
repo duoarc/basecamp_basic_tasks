@@ -14,6 +14,7 @@ def replace_spaces(sentence):
     # Replace all spaces
     return sentence.replace(" ", "%20")
 
-# Tests
+"""# Tests
 
 print (replace_spaces("othing added to commit but untracked files present (use git add to track)"))
+"""
